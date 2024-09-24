@@ -1,5 +1,6 @@
 **Vehicle Number Plate Recognition System**
 **Overview**
+
 This project implements a real-time vehicle number plate recognition system using Python. It leverages computer vision techniques to capture video from a webcam, detect number plates, and match them against a predefined database. The results are displayed on a web interface.
 
 **Libraries Used**
