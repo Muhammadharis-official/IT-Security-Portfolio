@@ -33,6 +33,7 @@ Implement alarm functionality when a plate is matched.
 Integrate with an external database for dynamic plate management.
 Improve the user interface for better interaction.
 ![IMg1](https://github.com/user-attachments/assets/2e5cdcac-bfb1-49f4-8576-7432a41986a2)
+
 **Smart Prepaid Electricity Meter System
 Overview**
 This project is designed to create a smart prepaid electricity meter system that integrates various functionalities such as energy consumption monitoring, balance alerts, and remote management via Firebase.
