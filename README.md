@@ -42,9 +42,9 @@ Improve the user interface for better interaction.
 
 ![IMg1](https://github.com/user-attachments/assets/2e5cdcac-bfb1-49f4-8576-7432a41986a2)
 
-**Smart Prepaid Electricity Meter System
+**Smart Prepaid Electricity Meter System**
 
-Overview**
+**Overview**
 
 This project is designed to create a smart prepaid electricity meter system that integrates various functionalities such as energy consumption monitoring, balance alerts, and remote management via Firebase.
 
@@ -121,7 +121,7 @@ Perform gestures in front of the camera to control mouse actions.
 Implement more complex gesture recognition for additional mouse functions.
 Improve accuracy through machine learning models for gesture detection.
 
-
+![img1](https://github.com/user-attachments/assets/357a089d-4b99-44b8-b980-5c2f02a930db)
 
 **Building a Multi-GPU Cluster for Hashcat Using Linux and NVIDIA**
 
