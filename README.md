@@ -83,10 +83,9 @@ Improve user interface for better interaction with the system.
 
 ![1716481243276](https://github.com/user-attachments/assets/3bdf2bed-e116-4c7e-972b-83789ef22379)
 
+**Virtual Mouse Using Ai**
 
-**Virtual Mouse Using Ai
-
-Overview**
+**Overview**
 
 This project implements a virtual mouse controlled by hand gestures using Python. It utilizes computer vision techniques to track hand movements and translate them into mouse actions.
 
@@ -130,9 +129,9 @@ Improve accuracy through machine learning models for gesture detection.
 
 This guide provides a comprehensive approach to building a multi-GPU cluster optimized for Hashcat password cracking. By utilizing budget-friendly NVIDIA GeForce 1650 GTX GPUs, this setup offers a cost-effective solution compared to investing in high-end GPUs. The cluster is also suitable for machine learning and other CUDA programming tasks.
 
-**Requirements
+**Requirements**
 
-Hardware**
+**Hardware**
 
 GPUs: 5-6 NVIDIA GeForce 1650 GTX GPUs (approximately $139.99 each during sales).
 PC: Refurbished HP Z840 with at least 128GB RAM and 1TB SSD (around $460).
@@ -160,7 +159,8 @@ Test Components: Before assembling, ensure all components (GPUs, risers) are fun
 
 If using extruded aluminum, drill holes for screws using a tap-and-die set.
 Secure GPU risers to the frame with M3 screws.
-**Install GPUs: **
+
+**Install GPUs:**
 
 Attach one GPU per riser, ensuring proper airflow.
 **Power Connections:**
@@ -197,9 +197,8 @@ Ensure all GPUs are detected and functioning correctly.
 
 The total expenditure for this setup was approximately RS430,660, which includes both new and second-hand equipment. Purchasing everything new could increase costs by about RS138925.
 
-![Fig](https://github.com/user-attachments/assets/e307a875-ba3a-47b6-aaa9-2c6e37ea3ef4)
-
-
 **Conclusion**
 
 This multi-GPU cluster provides a robust solution for password cracking with Hashcat while remaining cost-effective and versatile for other computational tasks like machine learning.
+
+![Fig](https://github.com/user-attachments/assets/e307a875-ba3a-47b6-aaa9-2c6e37ea3ef4)
