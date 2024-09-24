@@ -1,4 +1,4 @@
-# Vehicle Number Plate Recognition System
+# Automated Number Plate Recognition System
 
 ## Overview
 
