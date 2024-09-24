@@ -77,7 +77,7 @@ This project is designed to create a smart prepaid electricity meter system that
 
 ---
 
-# Virtual Mouse Using AI
+<h2 style="color: White;"><a href="https://github.com/Muhammadharis-official/IT-Security-Portfolio/tree/IT-security-Portfolio/Projects/Virtual%20mouse%20using%20AI" style="text-decoration: none; color: white;">Virtual Mouse Using AI</a></h2>
 
 ## Overview
 This project implements a virtual mouse controlled by hand gestures using Python. It utilizes computer vision techniques to track hand movements and translate them into mouse actions.
@@ -117,7 +117,7 @@ Perform gestures in front of the camera to control mouse actions.
 
 ---
 
-# Building a Multi-GPU Cluster for Hashcat Using Linux and NVIDIA
+<h2 style="color: White;"><a href="https://github.com/Muhammadharis-official/IT-Security-Portfolio/tree/IT-security-Portfolio/Projects/Password%20cracking%20GPU%20cluster" style="text-decoration: none; color: white;">Building a Multi-GPU Cluster for Hashcat Using Linux and NVIDIA</a></h2>
 
 ## Overview
 This guide provides a comprehensive approach to building a multi-GPU cluster optimized for Hashcat password cracking. By utilizing budget-friendly NVIDIA GeForce 1650 GTX GPUs, this setup offers a cost-effective solution compared to investing in high-end GPUs. The cluster is also suitable for machine learning and other CUDA programming tasks.
