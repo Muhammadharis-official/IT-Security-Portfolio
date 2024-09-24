@@ -1,4 +1,4 @@
-# Automated Number Plate Recognition System
+[# Automated Number Plate Recognition System](https://github.com/Muhammadharis-official/IT-Security-Portfolio/tree/IT-security-Portfolio/Projects/Automated%20License%20Plate%20Detection%20with%20Real%20Time%20Alert)
 
 ## Overview
 
