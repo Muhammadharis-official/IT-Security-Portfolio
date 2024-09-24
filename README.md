@@ -1,4 +1,4 @@
-<h2><a href="https://github.com/Muhammadharis-official/IT-Security-Portfolio/tree/IT-security-Portfolio/Projects/Automated%20License%20Plate%20Detection%20with%20Real%20Time%20Alert">Automated Number Plate Recognition System</a></h2>
+<h2 style="color: White;"><a href="https://github.com/Muhammadharis-official/IT-Security-Portfolio/tree/IT-security-Portfolio/Projects/Automated%20License%20Plate%20Detection%20with%20Real%20Time%20Alert">Automated Number Plate Recognition System</a></h2>
 
 ## Overview
 
