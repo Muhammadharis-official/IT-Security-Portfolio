@@ -6,10 +6,13 @@ This project implements a real-time vehicle number plate recognition system usin
 
 **Libraries Used**
 
-OpenCV (cv2): For image processing and computer vision tasks.
-NumPy (np): For numerical operations and handling arrays.
-Pytesseract: An Optical Character Recognition (OCR) tool for extracting text from images.
-Flask: A lightweight web framework for building web applications in Python.
+-**OpenCV (cv2):** For image processing and computer vision tasks.
+
+-**NumPy (np):** For numerical operations and handling arrays.
+
+-**Pytesseract:** An Optical Character Recognition (OCR) tool for extracting text from images.
+
+-**Flask:** A lightweight web framework for building web applications in Python.
 
 **Application Structure**
 
@@ -22,22 +25,31 @@ Displays results on a web page.
 **Installation**
 
 Ensure you have Python installed on your machine.
-Install the required libraries:
-bash
+
+**Install the required libraries:**
+
+**bash**
+
 pip install opencv-python numpy pytesseract flask
 
 **Usage**
 
 Connect your webcam.
+
 Run the application:
-bash
+
+**bash**
+
 python app.py
+
 Open your web browser and navigate to http://127.0.0.1:5000/ to view the application.
 
 **Enhancements**
 
 Implement alarm functionality when a plate is matched.
+
 Integrate with an external database for dynamic plate management.
+
 Improve the user interface for better interaction.
 
 ![IMg1](https://github.com/user-attachments/assets/2e5cdcac-bfb1-49f4-8576-7432a41986a2)
@@ -50,18 +62,26 @@ This project is designed to create a smart prepaid electricity meter system that
 
 **Key Components**
 
-GSM Module (SIM800A): For sending SMS alerts.
-Wi-Fi Module (ESP8266): For remote monitoring and control.
-Arduino ATMega 2560: The main microcontroller for processing.
-CT Sensor: To measure current and calculate energy consumption.
-Firebase: For cloud-based data storage and remote monitoring.
+-**GSM Module (SIM800A):** For sending SMS alerts.
+
+-**Wi-Fi Module (ESP8266):** For remote monitoring and control.
+
+-**Arduino ATMega 2560:** The main microcontroller for processing.
+
+-**CT Sensor:** To measure current and calculate energy consumption.
+
+-**Firebase:** For cloud-based data storage and remote monitoring.
 
 **Functionality**
 
 Reads energy consumption from the CT sensor.
+
 Sends alerts when the balance falls below specified thresholds.
+
 Disconnects power when the balance reaches zero.
+
 Updates Firebase with current status for remote access.
+
 
 **Installation**
 
@@ -91,29 +111,48 @@ This project implements a virtual mouse controlled by hand gestures using Python
 
 **Required Libraries**
 
-OpenCV: For image processing tasks.
-MediaPipe: For hand tracking capabilities.
-autopy or pyautogui: For controlling mouse movements and clicks.
-NumPy: For numerical operations.
-Install the required libraries:
-bash
+**OpenCV:** For image processing tasks.
+
+**MediaPipe:** For hand tracking capabilities.
+
+**autopy or pyautogui:** For controlling mouse movements and clicks.
+
+**NumPy:**For numerical operations.
+
+**Install the required libraries:**
+
+**bash**
+
 pip install opencv-python mediapipe autopy numpy
 
 **Implementation Steps**
 
 Set up the camera feed to capture video frames using OpenCV and MediaPipe.
-Detect hand gestures to control mouse actions:
-Fist: Activate virtual mouse.
+
+**Detect hand gestures to control mouse actions:**
+
+**Fist:** 
+
+Activate virtual mouse.
 Index Finger Pointing: Move cursor.
-Pinch Gesture: Click action (thumb and index together).
-Open Hand: Scroll action.
+
+**Pinch Gesture:** 
+
+Click action (thumb and index together).
+
+**Open Hand:**
+
+Scroll action.
 Control mouse movement based on finger positions detected by MediaPipe.
 
 **Usage**
 
-Run the script:
-bash
+**Run the script:**
+
+**bash**
+
 python virtual_mouse.py
+
 Perform gestures in front of the camera to control mouse actions.
 
 **Enhancements**
@@ -133,28 +172,46 @@ This guide provides a comprehensive approach to building a multi-GPU cluster opt
 
 **Hardware**
 
-GPUs: 5-6 NVIDIA GeForce 1650 GTX GPUs (approximately $139.99 each during sales).
-PC: Refurbished HP Z840 with at least 128GB RAM and 1TB SSD (around $460).
-GPU Risers: 6 PCI-E risers for GPU installation.
-Power Supply: EVGA 1500W or equivalent (second-hand for around $40).
-Frame Materials: Extruded aluminum or pre-owned mining rig frame.
-Miscellaneous Tools:
+**GPUs:** 5-6 NVIDIA GeForce 1650 GTX GPUs (approximately $139.99 each during sales).
+
+**PC:** Refurbished HP Z840 with at least 128GB RAM and 1TB SSD (around $460).
+
+**GPU Risers:** 6 PCI-E risers for GPU installation.
+
+**Power Supply:** EVGA 1500W or equivalent (second-hand for around $40).
+
+**Frame Materials:** Extruded aluminum or pre-owned mining rig frame.
+
+****Miscellaneous Tools:
+
 Drill and drill bits
+
 Tap and die set
+
 Metric Allen wrench set
+
 Phillips screwdriver, pliers
-HDMI Screen: A 7” touchscreen monitor.
+
+**HDMI Screen:** A 7” touchscreen monitor.
 
 **Software**
 
-Operating System: Kali Linux or Ubuntu 22.04 LTS.
-NVIDIA Drivers: Download the latest drivers from NVIDIA's website.
+**Operating System:**
+
+Kali Linux or Ubuntu 22.04 LTS.
+
+**NVIDIA Drivers:**
+
+Download the latest drivers from NVIDIA's website.
 
 **Setup Instructions**
 
 **Step 1: Hardware Assembly**
 
-Test Components: Before assembling, ensure all components (GPUs, risers) are functioning.
+**Test Components:**
+
+Before assembling, ensure all components (GPUs, risers) are functioning.
+
 **Frame Construction:**
 
 If using extruded aluminum, drill holes for screws using a tap-and-die set.
@@ -163,34 +220,44 @@ Secure GPU risers to the frame with M3 screws.
 **Install GPUs:**
 
 Attach one GPU per riser, ensuring proper airflow.
+
 **Power Connections:**
 
 Refer to documentation for connecting power cables to GPUs and risers.
+
 **Step 2: Software Installation**
 
 **Install Operating System:**
 
 Follow standard procedures to install Kali Linux or Ubuntu on the HP Z840.
+
 **Install NVIDIA Drivers:**
 
 Download the appropriate driver (e.g., NVIDIA-Linux-x86_64-535.146.02.run).
+
 **Execute the driver installation as root:**
 
-bash
+**bash**
+
 sudo bash ./NVIDIA-Linux-x86_64-535.146.02.run
 Install CUDA SDK:
 
 **Download and install the CUDA SDK using:**
 
-bash
+**bash**
+
 wget https://developer.download.nvidia.com/compute/cuda/12.3.2/local_installers/cuda_12.3.2_545.23.08_linux.run
+
 sudo sh cuda_12.3.2_545.23.08_linux.run
 
 **Step 3: Verification**
 
-After installation, verify the setup by running:
-bash
+**After installation, verify the setup by running:**
+
+**bash**
+
 /usr/local/cuda/extras/demo_suite/deviceQuery
+
 Ensure all GPUs are detected and functioning correctly.
 
 **Cost Analysis**
