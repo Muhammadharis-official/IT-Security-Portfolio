@@ -198,4 +198,3 @@ The total expenditure for this setup was approximately RS430,660, which includes
 This multi-GPU cluster provides a robust solution for password cracking with Hashcat while remaining cost-effective and versatile for other computational tasks like machine learning.
 
 ![Fig](https://github.com/user-attachments/assets/e307a875-ba3a-47b6-aaa9-2c6e37ea3ef4)
-```
