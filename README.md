@@ -1,16 +1,4 @@
-<svg fill="none" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .header { color: blue; font-size: 24px; }
-        a { text-decoration: none; color: inherit; }
-      </style>
-      <h2 class="header">
-        <a href="https://github.com/Muhammadharis-official/IT-Security-Portfolio/tree/IT-security-Portfolio/Projects/Automated%20License%20Plate%20Detection%20with%20Real%20Time%20Alert">Automated Number Plate Recognition System</a>
-      </h2>
-    </div>
-  </foreignObject>
-</svg>
+<h2 style="color: White;"><a href="https://github.com/Muhammadharis-official/IT-Security-Portfolio/tree/IT-security-Portfolio/Projects/Automated%20License%20Plate%20Detection%20with%20Real%20Time%20Alert" style="text-decoration: none; color: white;">Automated Number Plate Recognition System</a></h2>
 
 ## Overview
 
